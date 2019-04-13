@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">   
+    <h:head>
+        <title>IT-351 Database WebApp</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
+    </h:head>    
+    <h:body style="text-align: center">
+        <div>
+           <font size="6"><b>Database Web Application</b></font> 
+        </div>
+        <div class="topnav">
+           <a href="index.xhtml">Home</a> 
+           <a href="faces/customers/List.xhtml">Customers</a> 
+           <a href="faces/products/List.xhtml">Products</a> 
+           <a href="">About Us</a> 
+        </div>        
+        <div>
+        <br />
+        <br />
+        <font size="5">
+            <h:link outcome="/customers/List" value="Customer Data Table"/>
+            <br/>
+            <br/>
+            <h:link outcome="/products/List" value="Product Data Table"/>
+        </font> 
+        </div>
+
+    </h:body>
+    <footer class="footer"> 
+        <p>Copyright 2017</p>
+    </footer>
+</html>
+
